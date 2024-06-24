@@ -57,7 +57,10 @@ if pain == 'yes':
         print('-Have plenty of rest')
         print('-Take painkillers')
   elif where == 'back':
-    print('')
-  
-  
+    print('You have back pain due to your posture')
+    treatPB = str(input('would you like to know what to do next? (yes/no)'))
+    if treatPB == 'yes':
+      print('-Improve your posture when carrying out daily activities')
+  elif where == 'stomach':
+    stomachType = input('Is it an A: acidic pain or B: ')
   
