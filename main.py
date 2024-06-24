@@ -46,4 +46,18 @@ if cough == "yes":
 else:
   pass
 
-pain = str()
+pain = str(input('Do you have any pain?(yes/no)'))
+if pain == 'yes':
+  where = input('where do you feel this pain?(head/back/stomach')
+  if where == 'head':
+      print('you have a headache.')
+      treatPH = str(input('would you like to know what to do next? (yes/no)'))
+      if treatPH == 'yes':
+        print('-Drink fluids')
+        print('-Have plenty of rest')
+        print('-Take painkillers')
+  elif where == 'back':
+    print('')
+  
+  
+  
