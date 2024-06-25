@@ -62,5 +62,20 @@ if pain == 'yes':
     if treatPB == 'yes':
       print('-Improve your posture when carrying out daily activities')
   elif where == 'stomach':
-    stomachType = input('Is it an A: acidic pain or B: ')
-  
+    stomachType = input('Is it an A: acidic pain or B: aching pain ')
+    if stomachType == "A":
+      print("You have indigestion")
+      treatSI = input("Whould you like to know what to do next?(yes/no)")
+      if treatSI == 'yes':
+        print('-cut down on tea, coffee, cola or alcohol')
+        print('-raise your head and shoulders up when in bed – this can stop stomach acid coming up while you sleep')
+        print("-lose weight if you're overweight")
+    if  stomachType == 'B':
+        print('you have a stomach ache')
+        treatSA = input('Would you like to know what to do next?(yes/no)')
+        if treatSA == 'yes':
+          print('See a GP if:')
+          print('-a stomach ache gets much worse quickly')
+          print("-you're losing weight without trying to")
+          print('-you have diarrhoea that does not go away after a few days')
+          print('-peeing is suddenly painful')
