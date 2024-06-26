@@ -79,3 +79,4 @@ if pain == 'yes':
           print("-you're losing weight without trying to")
           print('-you have diarrhoea that does not go away after a few days')
           print('-peeing is suddenly painful')
+
